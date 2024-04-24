@@ -1,0 +1,131 @@
+/** * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+**/
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #1F2937;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+nav a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.hero {
+    background-color: #1F2937;
+    padding: 40px 96px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-bottom: 60px;
+    margin-bottom: 0;
+}
+
+h2 {
+    display: block;
+    font-size: 48px;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+    color: #E5E7EB;
+}
+
+.herotext p {
+    color: #e5e7eb;
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .heroimg {
+    width: 100%;
+    background-color: #797979;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+  }
+
+  
+  .herotext,
+  .heroimg {
+    flex: 1 0 400px;
+    max-width: 600px;
+  }
+
+  .btn {
+    border: none;
+    font-size: 18px;
+    background-color: #3882f6;
+    border-radius: 0.3em;
+    color: #e5e7eb;
+    padding: 5px 20px;
+    font-weight: boldr;
+  }
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 70px;
+    gap: 50px;
+}
+
+.content-title {
+    font-size: 36px;
+    font-weight: 900px;
+    color: #1F2937;
+    margin-top: 28px;
+}
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 200px;
+}
+
+.box img {
+    max-width: 200px;
+    max-height: 100px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.card-text {
+    text-align: center;
+    font-size: 18px;
+    color: #1F2937;
+}
